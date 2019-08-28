@@ -5,6 +5,7 @@ import lzt.springframework.sfgpetclinic.repositories.VisitRepository;
 import lzt.springframework.sfgpetclinic.services.VisitService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
+import org.springframework.data.annotation.Transient;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;

@@ -1,6 +1,7 @@
 package lzt.springframework.sfgpetclinic.services.springdatajpa;
 
 import lzt.springframework.sfgpetclinic.model.Vet;
+import lzt.springframework.sfgpetclinic.repositories.SpecialityRepository;
 import lzt.springframework.sfgpetclinic.repositories.VetRepository;
 import lzt.springframework.sfgpetclinic.services.VetService;
 import org.springframework.beans.factory.annotation.Autowired;
